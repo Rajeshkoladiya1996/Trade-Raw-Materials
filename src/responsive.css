@@ -1,0 +1,212 @@
+@media (max-width: 1700px) {
+  h5 {
+    font-size: 18px;
+  }
+  header .page-title {
+    font-size: 35px;
+  }
+  .page-content {
+    padding: 30px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .main-content {
+    padding-top: 20px;
+  }
+  .project-title {
+    font-size: 18px;
+  }
+  header .dropdown {
+    margin-left: 20px;
+  }
+  header .dropdown-toggle {
+    height: 50px;
+    width: 50px;
+  }
+  .admin-stat,
+  .admin-balance,
+  .admin-activity {
+    padding: 20px;
+  }
+  .admin-stat .result {
+    flex-wrap: wrap;
+  }
+  .admin-stat .chart-container {
+    margin-top: 20px;
+  }
+  .title-bar h2 {
+    font-size: 26px;
+  }
+  .notification .title-bar,
+  .title-bar {
+    margin-bottom: 20px;
+  }
+  .admin-activity .activities-list li h5 {
+    margin-bottom: 5px;
+  }
+  .admin-activity .activities-list li h4 {
+    font-size: 20px;
+  }
+  .admin-activity .activities-list li {
+    margin-bottom: 20px;
+  }
+  .setting-grid,
+  .Wallet-grid,
+  .admin-home-grid {
+    grid-gap: 20px;
+  }
+  .table-option-btn,
+  .rounded-dropdown .dropdown-toggle {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+  .search-label .table-searchbar {
+    height: 49px;
+  }
+  .form-group .themis-select__control,
+  .form-control {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .primary-btn,
+  .secondary-btn {
+    font-size: 18px;
+  }
+  .form-wrapp .btn {
+    width: 140px;
+    padding: 15px 15px;
+  }
+  form h4 {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  .form-group {
+    margin-bottom: 25px;
+  }
+  .form-wrapp {
+    max-width: 720px;
+  }
+  .custom-tab-wrap .nav-item .nav-link {
+    font-size: 20px;
+  }
+  .order-details-grid {
+    grid-gap: 20px;
+  }
+  .current-order-actions > div {
+    border-radius: 20px;
+  }
+  .order-details-grid .current-order {
+
+  }
+  .current-order-actions h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .setting-page .notification, .setting-page .location, .setting-page .reset-password, .setting-page .vacation-mode, .setting-page .profile, .setting-page .tariff-section,
+  .last-transactions,
+  .income, .expense, .total-wallet,
+  .current-order-actions > div,
+  .order-details-grid .current-order {
+    padding: 20px;
+  }
+  .admin-order-details-page .table-section {
+    margin-bottom: 40px;
+  }
+  .title-bar h2 {
+    margin-bottom: 0;
+  }
+  .action-link {
+    font-size: 18px;
+  }
+  .total-wallet .title-bar h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1499px) {
+  body {
+    font-size: 16px;
+  }
+  .sidebar {
+    max-width: 100px;
+  }
+  .page-content {
+    width: calc(100% - 100px);
+  }
+  .primary-btn, .secondary-btn {
+    font-size: 16px;
+  }
+  .action-link,
+  .table .action-link {
+    font-size: 16px;
+  }
+  .custom-tab-wrap .nav-item {
+    margin-right: 40px;
+  }
+  .custom-tab-wrap .nav-item .nav-link {
+    font-size: 18px;
+  }
+  .download-docs .doc-list li {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 1399px) { 
+  header .page-title {
+    font-size: 30px;
+  }
+  .sidebar li {
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    margin: 8px 0;
+  }
+  .page-content {
+    padding: 24px;
+  }
+  .sidebar {
+    padding: 20px 0;
+  }
+  .form-wrapp {
+    max-width: 650px;
+  }
+  .total-wallet .btn,
+  .form-wrapp .btn {
+    width: 120px;
+    padding: 12px 12px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  form h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .table thead th, .table tbody td {
+    padding: 12px;
+  }
+  .table .table-order-item .order-img {
+    margin-right: 15px;
+  }
+  .open-orders-wrap .order-info-wrap h5 {
+    font-size: 16px;
+  }
+  .form-group .themis-select__control {
+    font-size: 16px;
+  }
+  .form-group .themis-select__control,
+  .form-control:not(textarea) {
+    height: 55px;
+  }
+  .toggle {
+    width: 50px;
+    height: 30px;
+  }
+  .isChecked .toggle-slider {
+    left: 22px;
+  }
+  .admin-stat .chart-container {
+    margin-top: 5px;
+  }
+}

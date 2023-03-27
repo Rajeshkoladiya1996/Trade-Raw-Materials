@@ -1,0 +1,113 @@
+.setting-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	flex-wrap: wrap;
+}
+.setting-page .title-bar {
+	margin-bottom: 20px;
+}
+.setting-page .title-bar h2 {
+	font-size: 25px;
+}
+.setting-page .notification,
+.setting-page .location,
+.setting-page .reset-password,
+.setting-page .vacation-mode,
+.setting-page .profile,
+.setting-page .tariff-section {
+	padding: 40px;
+	border: 1px solid var(--border-light);
+	border-radius: 20px;
+}
+.setting-page .tariff-section h3 {
+	font-size: 40px;
+	font-weight: 700;
+}
+.setting-page .location {
+	margin-bottom: 20px;
+}
+.setting-page .profile-detail-top {
+	display: flex;
+	align-items: center;
+}
+.setting-page .profile-img {
+	max-width: 60px;
+	height: 60px;
+	margin-right: 16px;
+}
+
+.setting-page .profile-img img {
+	max-width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.profile-info-wrap h4 {
+	font-size: 22px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.profile-info-wrap small {
+	color: var(--gray-text);
+	font-weight: 500;
+}
+.profile-detail-title {
+	color: var(--gray-text);
+}
+.profile-detail-text {
+	font-weight: 500;
+}
+
+.reset-password .secondary-btn {
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 25px;
+	padding: 11px 24px 9px;
+}
+
+.toggle {
+	width: 60px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #ee6c4c;
+	position: relative;
+	cursor: pointer;
+	transition: 0.3s all;
+	flex-shrink: 0;
+}
+.toggle.isChecked {
+	background-color: #6ebf7c;
+}
+.toggle-slider {
+	width: 24px;
+	height: 24px;
+	background-color: var(--white);
+	border-radius: 50%;
+	position: absolute;
+	left: 3px;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: 0.3s all;
+	box-shadow: 0 0 10px rgba(38, 64, 77, 0.2);
+}
+.isChecked .toggle-slider {
+	left: 32px;
+}
+.notification .title-bar {
+	margin-bottom: 40px;
+}
+.notification-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.notification-block:last-child {
+	margin-bottom: 0;
+}
+.notification-block p {
+	font-size: 16px;
+	color: var(--gray-text);
+}

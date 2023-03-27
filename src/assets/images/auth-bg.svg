@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.688" height="940.062" viewBox="0 0 1920.688 940.062">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="291.742" height="436.26" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect x="138" y="254" width="384.375" height="408.713" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect x="266" y="243" width="294.883" height="469.728" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1.089" x2="1" y2="1.089" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#527bcc"/>
+      <stop offset="0.27" stop-color="#527bcc"/>
+      <stop offset="1" stop-color="#98bbff"/>
+    </linearGradient>
+    <clipPath id="clip-path-4">
+      <rect width="389.714" height="383.951" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="1.089" x2="1" y2="1.089" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ebf7c"/>
+      <stop offset="0.27" stop-color="#6ebf7c"/>
+      <stop offset="1" stop-color="#beffc9"/>
+    </linearGradient>
+    <clipPath id="clip-path-5">
+      <rect x="124" width="285.808" height="258.808" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff2b3"/>
+      <stop offset="1" stop-color="#ffdc3e"/>
+    </linearGradient>
+    <clipPath id="clip-path-6">
+      <rect y="172" width="309.808" height="237.808" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c5f9f9"/>
+      <stop offset="1" stop-color="#58c8c8"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1543" data-name="Group 1543" transform="translate(0.482 -0.191)">
+    <g id="Scroll_Group_6" data-name="Scroll Group 6" transform="translate(1628.396 503.752)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <path id="Shape_15_copy_4" data-name="Shape 15 copy 4" d="M-8.621,858.028-354.738,511.912a25.072,25.072,0,0,1-.015-35.353h0a25.072,25.072,0,0,1,35.352.015L-120.493,675.48a25.076,25.076,0,0,0,33.262-1.845h0a25.074,25.074,0,0,0-.014-35.354L-347.259,378.267a25.071,25.071,0,0,1-.014-35.352h0a25.072,25.072,0,0,1,35.352.014l42.06,42.061a24.988,24.988,0,0,0,35.338.146,24.988,24.988,0,0,0,.146-35.338l-.144-.144L-340.472,243.7a25.071,25.071,0,0,1-.014-35.352h0a25.072,25.072,0,0,1,35.352.015L153.406,666.9a25.074,25.074,0,0,1,.015,35.355h0a25.069,25.069,0,0,1-35.352-.016L-94.4,489.776a25.071,25.071,0,0,0-35.35-.012,25.073,25.073,0,0,0,.013,35.352L41.025,695.876a25.074,25.074,0,0,1,.014,35.354h0a25.074,25.074,0,0,1-35.353-.016L-27.57,697.958a25.07,25.07,0,0,0-35.353-.016h0A25.078,25.078,0,0,0-64.77,731.2L26.717,822.69a25.074,25.074,0,0,1,.015,35.354h0A25.07,25.07,0,0,1-8.621,858.028Z" transform="translate(364.036 -199.068)" fill="#fff" stroke="#26404d" stroke-width="4" fill-rule="evenodd"/>
+    </g>
+    <g id="Scroll_Group_3" data-name="Scroll Group 3" transform="translate(-138.482 -253.713)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+      <path id="Shape_15_copy_4-2" data-name="Shape 15 copy 4" d="M-11.573,852.542-354.8,509.316a24.862,24.862,0,0,1-.014-35.057h0a24.862,24.862,0,0,1,35.057.015l197.246,197.245a24.867,24.867,0,0,0,32.984-1.829h0a24.865,24.865,0,0,0-.014-35.059L-347.382,376.788a24.862,24.862,0,0,1-.014-35.057h0a24.862,24.862,0,0,1,35.057.014l41.708,41.71a24.779,24.779,0,0,0,35.042.145,24.78,24.78,0,0,0,.145-35.043l-.143-.143L-340.652,243.349a24.862,24.862,0,0,1-.014-35.057h0a24.862,24.862,0,0,1,35.057.015L149.1,663.015a24.865,24.865,0,0,1,.014,35.059h0a24.86,24.86,0,0,1-35.057-.016L-96.636,487.365a24.862,24.862,0,0,0-35.054-.012,24.864,24.864,0,0,0,.013,35.057L37.658,691.744a24.865,24.865,0,0,1,.014,35.059h0a24.864,24.864,0,0,1-35.057-.016l-32.98-32.978a24.861,24.861,0,0,0-35.057-.016h0a24.868,24.868,0,0,0-1.832,32.982L23.47,817.5a24.864,24.864,0,0,1,.015,35.059h0A24.86,24.86,0,0,1-11.573,852.542Z" transform="translate(364.036 -199.068)" fill="#fff" stroke="#26404d" stroke-width="4" fill-rule="evenodd"/>
+    </g>
+    <g id="Scroll_Group_2" data-name="Scroll Group 2" transform="translate(-265.559 -242.729)" clip-path="url(#clip-path-3)" style="isolation: isolate">
+      <path id="Shape_15_copy_4-3" data-name="Shape 15 copy 4" d="M-180.356,208.9,191.015,580.272a26.9,26.9,0,0,1,.016,37.932h0a26.9,26.9,0,0,1-37.932-.016L-60.321,404.769a26.906,26.906,0,0,0-35.689,1.979h0a26.9,26.9,0,0,0,.016,37.934L182.991,723.668a26.9,26.9,0,0,1,.016,37.932h0a26.9,26.9,0,0,1-37.932-.016l-45.129-45.13a26.811,26.811,0,0,0-38.073,37.76l.155.155,113.681,113.68a26.9,26.9,0,0,1,.016,37.932h0a26.9,26.9,0,0,1-37.932-.016l-492-492a26.9,26.9,0,0,1-.016-37.934h0a26.9,26.9,0,0,1,37.932.017l227.972,227.97a26.9,26.9,0,0,0,37.929.013A26.9,26.9,0,0,0-50.4,566.1L-233.624,382.885a26.9,26.9,0,0,1-.016-37.934h0a26.9,26.9,0,0,1,37.932.017l35.684,35.683a26.9,26.9,0,0,0,37.932.017h0a26.907,26.907,0,0,0,1.982-35.687l-98.162-98.163a26.9,26.9,0,0,1-.016-37.934h0A26.9,26.9,0,0,1-180.356,208.9Z" transform="translate(362.037 -201.068)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Scroll_Group_5" data-name="Scroll Group 5" transform="translate(1530.445 556)" clip-path="url(#clip-path-4)" style="isolation: isolate">
+      <path id="Shape_15_copy_4-4" data-name="Shape 15 copy 4" d="M-177.5,209.025,199.723,586.243a27.324,27.324,0,0,1,.016,38.529h0a27.324,27.324,0,0,1-38.529-.016L-55.571,407.977a27.329,27.329,0,0,0-36.251,2.01h0a27.327,27.327,0,0,0,.016,38.531L191.572,731.9a27.324,27.324,0,0,1,.016,38.529h0a27.325,27.325,0,0,1-38.529-.016L107.22,724.569a27.233,27.233,0,0,0-38.672,38.355l.157.157,115.471,115.47a27.325,27.325,0,0,1,.016,38.529h0a27.324,27.324,0,0,1-38.529-.016L-354.082,417.322a27.327,27.327,0,0,1-.016-38.532h0a27.322,27.322,0,0,1,38.529.018l231.561,231.56a27.324,27.324,0,0,0,38.526.013,27.326,27.326,0,0,0-.014-38.529L-231.6,385.748a27.327,27.327,0,0,1-.016-38.531h0a27.327,27.327,0,0,1,38.529.018l36.246,36.245a27.323,27.323,0,0,0,38.529.018h0a27.331,27.331,0,0,0,2.013-36.249l-99.708-99.709a27.327,27.327,0,0,1-.016-38.531h0A27.322,27.322,0,0,1-177.5,209.025Z" transform="translate(362.036 -201.068)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(-123.666 681.445)" clip-path="url(#clip-path-5)" style="isolation: isolate">
+      <rect id="Rectangle_414" data-name="Rectangle 414" width="300" height="300" rx="150" transform="translate(150) rotate(30)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="Scroll_Group_4" data-name="Scroll Group 4" transform="translate(1610.398 -171.809)" clip-path="url(#clip-path-6)" style="isolation: isolate">
+      <rect id="Rectangle_415" data-name="Rectangle 415" width="300" height="300" rx="150" transform="translate(150) rotate(30)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

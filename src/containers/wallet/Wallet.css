@@ -1,0 +1,93 @@
+.Wallet-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	flex-wrap: wrap;
+}
+.income,
+.expense,
+.total-wallet {
+	padding: 40px;
+	border: 1px solid var(--border-light);
+	border-radius: 20px;
+}
+.chart-container {
+	height: 210px;
+	width: auto;
+}
+.total-wallet .title-bar h2 {
+	font-size: 40px;
+}
+.total-wallet .btn {
+	padding: 14px 25px;
+	border-radius: 30px;
+}
+.income .title-bar,
+.expense .title-bar {
+	margin-bottom: 42px;
+}
+
+.wallet-page .last-transactions {
+	grid-column: span 2;
+}
+
+.last-transactions {
+	border: 1px solid var(--border-light);
+	border-radius: 22px;
+	padding: 40px;
+}
+
+.recent-transactions .table thead {
+	display: none;
+}
+
+.recent-transactions .table tbody tr td:first-child {
+	padding-left: 0;
+}
+
+.recent-transactions tbody td .txn-item h4 {
+	color: var(--dark-text);
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.recent-transactions .table tbody tr td {
+	color: var(--gray-text);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.recent-transactions .table tbody tr {
+	border-bottom: 1px solid transparent;
+}
+
+.recent-transactions .table thead th,
+.recent-transactions .table tbody td {
+	padding: 10px;
+}
+
+.wallet-page .txn-item {
+	display: flex;
+	align-items: center;
+}
+
+.wallet-page .txn-img {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.recent-transactions .txn-result {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.recent-transactions .txn-result.added {
+	color: var(--green);
+}
+
+.recent-transactions .txn-result.removed {
+	color: var(--orange);
+}

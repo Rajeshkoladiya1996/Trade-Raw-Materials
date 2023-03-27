@@ -1,0 +1,70 @@
+.modal .modal-content {
+	border-radius: 20px;
+	border: 0;
+}
+
+.modal-body {
+	padding: 1.2rem;
+}
+
+.modal-title-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.modal-title {
+	font-weight: 700;
+}
+
+.close-btn {
+	display: block;
+	font-size: 24px;
+	border: none;
+	line-height: 1;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.close-btn:focus {
+	outline: none;
+	border: none;
+	background-color: unset;
+}
+
+.modal-description {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.modal-action-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-action-wrap button,
+.modal-action-wrap a {
+	margin-right: 15px;
+	font-weight: 400;
+	padding: 7px 25px;
+	font-size: 18px;
+	width: 120px;
+}
+
+.modal-action-wrap button:last-child,
+.modal-action-wrap a:last-child {
+	margin-right: 0;
+}
+
+.btn.action-link:focus,
+.btn.action-link:active {
+	outline: none;
+	border: none;
+}

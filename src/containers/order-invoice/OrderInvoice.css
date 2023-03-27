@@ -1,0 +1,144 @@
+.pdf-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.pdf-page {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.pdf-page .pdf-header,
+.pdf-page .pdf-footer {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.pdf-page .pdf-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 100px;
+}
+
+.pdf-bg-images {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.pdf-page .pdf-footer {
+  height: 47px;
+}
+
+.pdf-footer .pdf-bg-images {
+  width: 100%;
+}
+
+.pdf-brand-logo {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto;
+}
+
+.pdf-header .brand-title {
+  color: white;
+}
+
+.pdf-body {
+  padding: 30px;
+}
+
+.pdf-page-title {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.invoice-info-table {
+  margin-bottom: 30px;
+}
+
+.invoice-info-table th {
+  color: var(--theme-color);
+  font-size: 14px;
+  width: 50%;
+  line-height: 1;
+}
+
+.invoice-info-table td {
+  font-weight: 600;
+  line-height: 1;
+}
+
+.invoice-info-table h4 {
+  font-weight: 700;
+}
+
+.invoice-info-table p {
+  line-height: 1.6;
+}
+
+.invoice-price-table {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.invoice-price-table thead {
+  background-color: #f5f8fa;
+}
+
+.invoice-price-table th {
+  color: #7a8f99;
+  font-weight: 500;
+}
+
+.invoice-price-table th,
+.invoice-price-table td {
+  padding: 6px 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.title-cell {
+  width: 50%;
+}
+
+.signature-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+}
+
+.signature-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signature-section h6 {
+  border-top: 2px solid #e1e4e6;
+  padding: 10px 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@page :left {
+  margin-left: 0;
+}
+
+@page :right {
+  margin-left: 0;
+}

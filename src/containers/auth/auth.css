@@ -1,0 +1,166 @@
+.auth-wrapp {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0;
+}
+.bg-auth {
+  position: absolute;
+}
+.bg-top-left {
+  top: 0;
+  left: -1px;
+}
+.bg-top-right {
+  top: 0;
+  right: 0px;
+}
+.bg-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+.bg-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.auth-form-warpp {
+  width: 100%;
+  max-width: 500px;
+}
+.register-form-warpp {
+  max-width: 700px;
+}
+.auth-form-warpp h2 {
+  font-size: 40px;
+  color: #26404d;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.auth-form-warpp p {
+  font-size: 18px;
+  color: #26404d;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.auth-form-warpp p span {
+  opacity: 0.5;
+}
+.auth-form-warpp .form-control {
+  height: 70px;
+  background-color: #f5f8fa;
+  border: 0;
+  border-radius: 35px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #26404d;
+  margin-bottom: 0;
+}
+.auth-form-warpp .form-control::placeholder {
+  color: #7a8f99;
+  font-weight: 700;
+}
+.auth-form-warpp .forgot-link {
+  margin: 30px 0 30px;
+  opacity: 1;
+}
+.show-password {
+  position: absolute;
+  top: 24px;
+  right: 40px;
+  cursor: pointer;
+  display: flex;
+}
+.forgot-link a {
+  color: #26404d;
+  text-decoration: underline;
+}
+
+.auth-form-warpp .primary-btn {
+  padding: 19px 68px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.auth-form-warpp .connect-text {
+  margin-bottom: 30px;
+}
+.socials-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+.socials-row .social {
+  width: 50px;
+  height: 50px;
+  background-color: #3b5999;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.socials-row .social:last-child {
+  margin-right: 0;
+}
+.socials-row .social.twitter {
+  background-color: #55acee;
+}
+.socials-row .social.google {
+  background-color: #dd4b39;
+}
+
+.socials-row .social.apple {
+  background-color: #26404d;
+}
+::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1499px) {
+  .auth-form-warpp .primary-btn {
+    padding: 14px 50px;
+  }
+  .auth-form-warpp h2 {
+    font-size: 35px;
+  }
+  .auth-form-warpp p {
+    margin-bottom: 30px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .auth-form-warpp .form-control {
+    height: 60px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .show-password {
+    right: 20px;
+    top: 18px;
+  }
+  .auth-form-warpp .primary-btn {
+    margin-bottom: 30px;
+  }
+  .auth-form-warpp {
+    max-width: 450px;
+  }
+  .form-group .themis-select__control {
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .auth-form-warpp .primary-btn {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  }
+}

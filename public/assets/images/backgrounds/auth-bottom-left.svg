@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="285.808" height="258.808" viewBox="0 0 285.808 258.808">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="124" width="285.808" height="258.808" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff2b3"/>
+      <stop offset="1" stop-color="#ffdc3e"/>
+    </linearGradient>
+  </defs>
+  <g id="Scroll_Group_3" data-name="Scroll Group 3" transform="translate(-124)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <rect id="Rectangle_414" data-name="Rectangle 414" width="300" height="300" rx="150" transform="translate(150) rotate(30)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

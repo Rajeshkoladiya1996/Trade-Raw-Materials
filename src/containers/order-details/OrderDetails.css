@@ -1,0 +1,170 @@
+.order-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin-bottom: 40px;
+}
+
+.order-details-grid .current-order {
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.order-details-grid .current-order .secondary-btn {
+  border-color: var(--error-red);
+  color: var(--error-red);
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 35px;
+}
+
+.order-details-grid .current-order .order-details p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.current-order-info {
+  margin-top: 50px;
+}
+
+.current-order-info label {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.current-order-info h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.current-order-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+
+.current-order-actions .action-required {
+  background-color: var(--light-blue);
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.action-required .primary-btn {
+  padding: 14px 0;
+  border-radius: 35px;
+  margin-top: auto;
+}
+
+.current-order-actions > div {
+  border-radius: 35px;
+  padding: 30px;
+}
+
+.current-order-actions h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.current-order-actions h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.current-order-actions .download-docs {
+  border: 1px solid var(--border-light);
+  padding-bottom: 27px;
+}
+
+.download-docs .doc-list li {
+  padding: 17px 0;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.download-docs .doc-list li:first-child {
+  padding-top: 0;
+}
+
+.download-docs .doc-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.doc-list i {
+  font-size: 24px;
+}
+
+.download-docs .doc-info i {
+  vertical-align: sub;
+  margin-right: 15px;
+}
+
+.download-docs .doc-list button {
+  background-color: transparent;
+  border: none;
+  color: var(--theme-color);
+}
+
+.shipment-table .table td,
+.shipment-table .table th {
+  text-align: left;
+}
+
+.shipment-table .table td:first-child,
+.shipment-table .table th:first-child {
+  text-align: center;
+}
+
+.shipment-table .download-btn i {
+  color: var(--theme-color);
+  margin-right: 10px;
+  vertical-align: sub;
+}
+
+.shipment-table .download-btn {
+  background-color: unset;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.transport-order-details-page .open-orders-wrap .order-item {
+  margin-bottom: 20px;
+}
+
+.transport-order-details-page .current-order-info.gap,
+.admin-order-details-page .current-order-info.gap {
+  margin-top: 0;
+  display: grid;
+  grid-template-areas:
+    "c1 c2 c3"
+    "c4 . c5";
+  grid-row-gap: 25px;
+}
+
+.current-order-info .c1 {
+  grid-area: c1;
+}
+.current-order-info .c2 {
+  grid-area: c2;
+}
+.current-order-info .c3 {
+  grid-area: c3;
+}
+.current-order-info .c3 {
+  grid-area: c3;
+}
+.current-order-info .c4 {
+  grid-area: c4;
+}
+.current-order-info .c5 {
+  grid-area: c5;
+}
